@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  button {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #studentList {
+    margin-bottom: 20px;
+  }
+  
+  .student {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .student button {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .student button:hover {
+    background-color: #d32f2f;
+  }
+  
